@@ -29,7 +29,7 @@ PlaylistModule:Start("TestPlaylist", false, 0.5) -- You don't need to fill in al
 
 # **Functions:**
 
-## **:Start()**
+## **Start()**
 ```
 function PlaylistModule:Start(PlaylistName : string?, LoopablePlaylist : boolean?, Volume : number?)
 ```
@@ -41,7 +41,7 @@ Starts the playlist.
 - `LoopablePlaylist : boolean?` : If you want the playlist to loop forever
 - `Volume : number?` : The volume of the sounds you inserted in the playlist folder.
 
-## **:SkipForward()**
+## **SkipForward()**
 
 ```
 function PlaylistModule:SkipForward(PlaylistName : string, allowSameSong : boolean?, Volume : number?)
@@ -54,7 +54,7 @@ Skips forward in the playlist.
 - `allowSameSong : boolean?` : If you want to have the same song when you skip (recommended false)
 - `Volume : number?` : The volume of the sounds you inserted in the playlist folder.
 
-## **:GetCurrentSongName()**
+## **GetCurrentSongName()**
 
 ```
 function PlaylistModule:GetCurrentSongName(returnTime : boolean?)
